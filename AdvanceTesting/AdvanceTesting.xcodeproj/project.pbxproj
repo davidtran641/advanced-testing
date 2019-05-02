@@ -14,6 +14,7 @@
 		B0364974227AB24C00F9F2EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0364972227AB24C00F9F2EF /* LaunchScreen.storyboard */; };
 		B036497F227AB24C00F9F2EF /* AdvanceTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036497E227AB24C00F9F2EF /* AdvanceTestingTests.swift */; };
 		B036498A227AB24C00F9F2EF /* AdvanceTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0364989227AB24C00F9F2EF /* AdvanceTestingUITests.swift */; };
+		B0364999227AB2E200F9F2EF /* LoggingObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0364998227AB2E200F9F2EF /* LoggingObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B0364985227AB24C00F9F2EF /* AdvanceTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0364989227AB24C00F9F2EF /* AdvanceTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceTestingUITests.swift; sourceTree = "<group>"; };
 		B036498B227AB24C00F9F2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0364998227AB2E200F9F2EF /* LoggingObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		B036497D227AB24C00F9F2EF /* AdvanceTestingTests */ = {
 			isa = PBXGroup;
 			children = (
+				B0364997227AB2CF00F9F2EF /* Observation */,
 				B036497E227AB24C00F9F2EF /* AdvanceTestingTests.swift */,
 				B0364980227AB24C00F9F2EF /* Info.plist */,
 			);
@@ -123,6 +126,14 @@
 				B036498B227AB24C00F9F2EF /* Info.plist */,
 			);
 			path = AdvanceTestingUITests;
+			sourceTree = "<group>";
+		};
+		B0364997227AB2CF00F9F2EF /* Observation */ = {
+			isa = PBXGroup;
+			children = (
+				B0364998227AB2E200F9F2EF /* LoggingObserver.swift */,
+			);
+			path = Observation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B036497F227AB24C00F9F2EF /* AdvanceTestingTests.swift in Sources */,
+				B0364999227AB2E200F9F2EF /* LoggingObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
